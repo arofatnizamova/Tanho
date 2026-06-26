@@ -484,6 +484,10 @@ footer a:hover {
         height: 150px;
     }
 
+    .icon-size-sm {
+        height: 40px;
+    }
+
 
 
 }

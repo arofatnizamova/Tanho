@@ -100,7 +100,33 @@ $(document).ready(function () {
                     {
                         breakpoint: 992,
                         settings: {
+                            slidesToShow: 4.1,
+                            slidesToScroll: 1,
+                        }
+                    },
+                ]
+            };
+        } if (slider.hasClass('categories-2')) {
+            extraOptions = {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                infinite: false,
+                centerMode: false,
+                arrows: true,
+                dots: false,
+                autoplay: false,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
                             slidesToShow: 4,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 4.1,
                             slidesToScroll: 1,
                         }
                     },
