@@ -40,9 +40,9 @@ $(document).ready(function () {
                 },
                 ]
             }
-        } if (slider.hasClass('services')) {
+        } if (slider.hasClass('sertificates')) {
             extraOptions = {
-                slidesToShow: 2.5,
+                slidesToShow: 4.2,
                 slidesToScroll: 1,
                 centerMode: false,
                 arrows: true,
@@ -51,14 +51,14 @@ $(document).ready(function () {
                 responsive: [{
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3.5,
                         slidesToScroll: 1,
                     }
                 },
                 {
                     breakpoint: 992,
                     settings: {
-                        slidesToShow: 1.5,
+                        slidesToShow: 2.8,
                         slidesToScroll: 1,
                     }
                 },
