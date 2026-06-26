@@ -285,6 +285,44 @@ footer a:hover {
     right: 0;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.nav-pills .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+
+}
+
+.nav-pills .nav-link.active p {
+    color: #DDAC32;
+}
+
+.nav-pills .nav-link img {
+    height: 200px;
+}
+
+.product-card {
+    background: #FDEEDE;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.product-img {
+    transition: all 0.3s ease;
+    height: 300px;
+}
+
+.product-card:hover {
+    background: rgba(124, 63, 45, 0.73);
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.1);
+}
+
 /* breackpoints */
 @media(max-width: 1650px) {
     .img-size-lg {
@@ -381,6 +419,10 @@ footer a:hover {
     .position-md-absolute {
         position: relative;
     }
+
+    .nav-pills .nav-link img {
+        height: 100px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -430,5 +472,11 @@ footer a:hover {
         bottom: -5%;
         z-index: 10;
     }
+
+    .product-img {
+        height: 150px;
+    }
+
+
 
 }
