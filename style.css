@@ -323,6 +323,13 @@ footer a:hover {
     transform: scale(1.1);
 }
 
+.dots {
+    flex: 1;
+    border-bottom: 1px dotted #999;
+    margin: 0 8px;
+    height: 0.5em;
+}
+
 /* breackpoints */
 @media(max-width: 1650px) {
     .img-size-lg {
