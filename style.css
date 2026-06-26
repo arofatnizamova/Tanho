@@ -147,6 +147,18 @@ a {
     margin-top: -40px;
 }
 
+.w-60 {
+    width: 60%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.border-corp {
+    border-color: var(--color-corp-2) !important;
+}
+
 /* bootstrap components castomization */
 
 .navbar-toggler:focus {
